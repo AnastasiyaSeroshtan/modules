@@ -23,7 +23,7 @@
   background-color: #ff9800;
 } */
 
-body {
+/* body {
   margin: 8px;
   font-family: sans-serif;
 }
@@ -54,4 +54,25 @@ body {
 
 .color-palette .item:hover {
   transform: scale(1.1);
+} */
+
+body {
+  margin: 16px;
+  line-height: 1.5;
+  color: #212121;
+  font-family: sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.user-list {
+  margin: 0;
+  list-style: none;
+  padding: 24px;
+}
+
+.user-list li:not(:last-child) {
+  margin-bottom: 16px;
 }
