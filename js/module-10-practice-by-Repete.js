@@ -1,4 +1,4 @@
-import pokemonCardTpl from './templates/pokemon-card.hbs';
+// import pokemonCardTpl from './templates/pokemon-card.hbs';
 
 const cardContainer = document.querySelector('.js-card-container');
 
@@ -17,7 +17,7 @@ fetch('https://pokeapi.co/api/v2/pokemon/35/')
 
 
 function pokemonCardTpl(pokemon) {
-    pokemon.map({name, ability, weight, height}) => {
+    pokemon.map() => {
         return `<div class="card">
         <div class="card-img-top">
           <img src="${sprites.front_default}" alt="${name}">
