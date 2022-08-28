@@ -105,6 +105,9 @@ function toggleAlertPopup() {
   }, 3000);
 }
 
+const message = "Welcome to Bahamas!";
+console.log(message.indexOf("e")); // 8
+console.log(message.indexOf("hello")); // -1
 
 
 
